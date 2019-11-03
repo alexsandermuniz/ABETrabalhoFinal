@@ -6,7 +6,7 @@ namespace WholesaleApi.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    public class BudgetController : ControllerBase
+    public class BudgetsController : ControllerBase
     {
         BudgetsBusiness _BudgetBusiness = new BudgetsBusiness();
         [HttpGet("{id}")]
