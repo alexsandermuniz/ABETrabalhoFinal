@@ -3,7 +3,7 @@ services:
   wholesaleapi:    
     image: wholesaleapi
     build:
-      context: src/Services/ShopkeeperApi/ShopkeeperApi      
+      context: src/Services/WholesaleApi/WholesaleApi      
   shopkeeperapi:
     image: shopkeeperapi
     build:
