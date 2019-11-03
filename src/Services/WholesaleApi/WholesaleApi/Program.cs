@@ -20,7 +20,7 @@ namespace WholesaleApi
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                .UseStartup<Startup>()
-                .UseUrls("https://localhost:4012/");
+                .UseUrls("http://localhost:4012/");
                 
     }
 }

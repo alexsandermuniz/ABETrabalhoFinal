@@ -1,0 +1,14 @@
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\bin\Debug\netcoreapp2.1\ShopkeeperApi.deps.json
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\bin\Debug\netcoreapp2.1\ShopkeeperApi.runtimeconfig.json
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\bin\Debug\netcoreapp2.1\ShopkeeperApi.runtimeconfig.dev.json
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\bin\Debug\netcoreapp2.1\ShopkeeperApi.dll
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\bin\Debug\netcoreapp2.1\ShopkeeperApi.pdb
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\obj\Debug\netcoreapp2.1\ShopkeeperApi.csprojAssemblyReference.cache
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\obj\Debug\netcoreapp2.1\ShopkeeperApi.csproj.CoreCompileInputs.cache
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\obj\Debug\netcoreapp2.1\ShopkeeperApi.RazorAssemblyInfo.cache
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\obj\Debug\netcoreapp2.1\ShopkeeperApi.RazorAssemblyInfo.cs
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\obj\Debug\netcoreapp2.1\ShopkeeperApi.AssemblyInfoInputs.cache
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\obj\Debug\netcoreapp2.1\ShopkeeperApi.AssemblyInfo.cs
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\obj\Debug\netcoreapp2.1\ShopkeeperApi.RazorTargetAssemblyInfo.cache
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\obj\Debug\netcoreapp2.1\ShopkeeperApi.dll
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\ShopkeeperApi\ShopkeeperApi\obj\Debug\netcoreapp2.1\ShopkeeperApi.pdb
