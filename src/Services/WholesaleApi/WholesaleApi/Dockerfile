@@ -8,7 +8,7 @@ WORKDIR /src
 # Copiar csproj e restaurar dependencias
 COPY src/Services/WholesaleApi/WholesaleApi.sln .
 COPY src/Services/WholesaleApi/WholesaleApi/WholesaleApi.csproj src/Services/WholesaleApi/WholesaleApi/
-RUN dotnet restore WholesaleApi.sln
+RUN dotnet restore src/Services/WholesaleApi/WholesaleApi.sln
 
 # Build da aplicacao
 COPY . .
