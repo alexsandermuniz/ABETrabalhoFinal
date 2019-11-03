@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore-build:2.2 AS build-env
+FROM microsoft/aspnetcore-build:2.0 AS build-env
 WORKDIR /app
 EXPOSE 4012
 
@@ -11,7 +11,7 @@ COPY . ./
 RUN dotnet publish -c Release -o out
 
 # Build da imagem
-FROM microsoft/aspnetcore:2.2
+FROM microsoft/aspnetcore:2.0
 WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "WholesaleApi.dll"]
