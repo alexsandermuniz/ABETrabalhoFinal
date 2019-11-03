@@ -5,12 +5,8 @@ services:
     build:
       context: .
       dockerfile: src/Services/ShopkeeperApi/ShopkeeperApi/Dockerfile   
-      ports:
-      - "4012"
   shopkeeperapi:
     image: shopkeeperapi
     build:
       context: .
       dockerfile: src/Services/ShopkeeperApi/ShopkeeperApi/Dockerfile
-      ports:
-      - "4013"
