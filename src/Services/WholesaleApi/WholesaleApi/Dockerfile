@@ -3,12 +3,13 @@ WORKDIR /app
 EXPOSE 4012
 
 # Copiar csproj e restaurar dependencias
-COPY *.csproj ./
+COPY src/Services/WholesaleApi/WholesaleApi/WholesaleApi.csproj src/Services/WholesaleApi/WholesaleApi/
 RUN dotnet restore
 
 # Build da aplicacao
-COPY . ./
-RUN dotnet publish -c Release -o out
+COPY . .
+WORKDIR /src/src/Services/WholesaleApi/WholesaleApi
+RUN dotnet publish --no-restore -c Release -o /app
 
 # Build da imagem
 FROM microsoft/dotnet:2.2-aspnetcore-runtime
