@@ -8,7 +8,7 @@ WORKDIR /src
 # Copiar csproj e restaurar dependencias
 COPY src/Services/ShopkeeperApi/ShopkeeperApi.sln .
 COPY src/Services/ShopkeeperApi/ShopkeeperApi/ShopkeeperApi.csproj src/Services/ShopkeeperApi/ShopkeeperApi/
-RUN dotnet restore ShopkeeperApi.sln .
+RUN dotnet restore ShopkeeperApi.sln
 
 # Build da aplicacao
 COPY . .
