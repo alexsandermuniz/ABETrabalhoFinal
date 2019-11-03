@@ -1,0 +1,10 @@
+version: '3'
+services:
+  WholesaleApi:    
+    build:
+      context: .
+      dockerfile: src/Services/ShopkeeperApi/ShopkeeperApi/Dockerfile    
+  ShopkeeperApi:
+    build:
+      context: .
+      dockerfile: src/Services/ShopkeeperApi/ShopkeeperApi/Dockerfile
