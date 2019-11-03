@@ -6,10 +6,9 @@ FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /src
 
 # Copiar csproj e restaurar dependencias
-COPY src/Services/WholesaleApi/WholesaleApi.sln .
+COPY src/Services/WholesaleApi/WholesaleApi.sln src/Services/WholesaleApi
 COPY src/Services/WholesaleApi/WholesaleApi/WholesaleApi.csproj src/Services/WholesaleApi/WholesaleApi/
-WORKDIR src/Services/WholesaleApi
-RUN dotnet restore
+RUN dotnet restore src/Services/WholesaleApi/WholesaleApi.sln
 
 # Build da aplicacao
 COPY . .

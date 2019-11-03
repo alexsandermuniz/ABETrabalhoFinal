@@ -6,10 +6,9 @@ FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /src
 
 # Copiar csproj e restaurar dependencias
-COPY src/Services/ShopkeeperApi/ShopkeeperApi.sln .
+COPY src/Services/ShopkeeperApi/ShopkeeperApi.sln src/Services/ShopkeeperApi
 COPY src/Services/ShopkeeperApi/ShopkeeperApi/ShopkeeperApi.csproj src/Services/ShopkeeperApi/ShopkeeperApi/
-WORKDIR src/Services/ShopkeeperApi
-RUN dotnet restore
+RUN dotnet restore src/Services/ShopkeeperApi/ShopkeeperApi.sln
 
 # Build da aplicacao
 COPY . .
