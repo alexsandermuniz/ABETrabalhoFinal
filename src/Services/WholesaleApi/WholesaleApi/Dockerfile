@@ -1,6 +1,6 @@
 FROM microsoft/dotnet:2.2-sdk AS build-env
 WORKDIR /app
-EXPOSE 4013
+EXPOSE 4012
 
 # Copiar csproj e restaurar dependencias
 COPY *.csproj ./
@@ -14,4 +14,4 @@ RUN dotnet publish -c Release -o out
 FROM microsoft/dotnet:2.2-aspnetcore-runtime
 WORKDIR /app
 COPY --from=build-env /app/out .
-ENTRYPOINT ["dotnet", "ShookeeperApi.dll"]
+ENTRYPOINT ["dotnet", "WholesaleApi.dll"]
