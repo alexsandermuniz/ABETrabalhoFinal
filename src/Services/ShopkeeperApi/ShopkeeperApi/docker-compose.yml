@@ -1,12 +1,5 @@
 version: '3'
 services:
-  wholesaleapi:    
-    image: wholesaleapi
-    build:
-      context: .
-      dockerfile: src/Services/ShopkeeperApi/ShopkeeperApi/Dockerfile   
-      ports:
-      - "4012"
   shopkeeperapi:
     image: shopkeeperapi
     build:

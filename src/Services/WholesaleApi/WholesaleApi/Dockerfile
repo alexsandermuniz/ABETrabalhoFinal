@@ -1,24 +1,17 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2 AS base
+FROM microsoft/aspnetcore-build:2.2 AS build-env
 WORKDIR /app
 EXPOSE 4012
 
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
-WORKDIR /src
-
 # Copiar csproj e restaurar dependencias
-COPY src/Services/WholesaleApi/WholesaleApi.sln src/Services/WholesaleApi
-COPY src/Services/WholesaleApi/WholesaleApi/WholesaleApi.csproj src/Services/WholesaleApi/WholesaleApi/
-RUN dotnet restore src/Services/WholesaleApi/WholesaleApi.sln
+COPY *.csproj ./
+RUN dotnet restore
 
 # Build da aplicacao
-COPY . .
-WORKDIR /src/src/Services/WholesaleApi/WholesaleApi
-RUN dotnet publish --no-restore -c Release -o /app
+COPY . ./
+RUN dotnet publish -c Release -o out
 
 # Build da imagem
-FROM build AS publish
-
-FROM base AS final
+FROM microsoft/aspnetcore:2.2
 WORKDIR /app
-COPY --from=publish /app .
+COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "WholesaleApi.dll"]
