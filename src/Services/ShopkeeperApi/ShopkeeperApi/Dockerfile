@@ -9,7 +9,7 @@ WORKDIR /src
 COPY src/Services/ShopkeeperApi/ShopkeeperApi.sln .
 COPY src/Services/ShopkeeperApi/ShopkeeperApi/ShopkeeperApi.csproj src/Services/ShopkeeperApi/ShopkeeperApi/
 WORKDIR /src/Services/ShopkeeperApi
-RUN dotnet restore ShopkeeperApi.sln
+RUN dotnet restore
 
 # Build da aplicacao
 COPY . .
