@@ -3,10 +3,8 @@ services:
   wholesaleapi:    
     image: wholesaleapi
     build:
-      context: .
-      dockerfile: src/Services/ShopkeeperApi/ShopkeeperApi/Dockerfile   
+      context: src/Services/ShopkeeperApi/ShopkeeperApi      
   shopkeeperapi:
     image: shopkeeperapi
     build:
-      context: .
-      dockerfile: src/Services/ShopkeeperApi/ShopkeeperApi/Dockerfile
+      context: src/Services/ShopkeeperApi/ShopkeeperApi      
