@@ -4,4 +4,3 @@ services:
     image: shopkeeperapi
     build:
       context: .
-      dockerfile: src/Services/ShopkeeperApi/ShopkeeperApi/Dockerfile
