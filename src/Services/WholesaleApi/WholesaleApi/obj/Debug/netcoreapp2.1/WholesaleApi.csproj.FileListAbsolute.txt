@@ -1,0 +1,14 @@
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\bin\Debug\netcoreapp2.1\WholesaleApi.deps.json
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\bin\Debug\netcoreapp2.1\WholesaleApi.runtimeconfig.json
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\bin\Debug\netcoreapp2.1\WholesaleApi.runtimeconfig.dev.json
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\bin\Debug\netcoreapp2.1\WholesaleApi.dll
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\bin\Debug\netcoreapp2.1\WholesaleApi.pdb
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\obj\Debug\netcoreapp2.1\WholesaleApi.csprojAssemblyReference.cache
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\obj\Debug\netcoreapp2.1\WholesaleApi.csproj.CoreCompileInputs.cache
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\obj\Debug\netcoreapp2.1\WholesaleApi.RazorAssemblyInfo.cache
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\obj\Debug\netcoreapp2.1\WholesaleApi.RazorAssemblyInfo.cs
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\obj\Debug\netcoreapp2.1\WholesaleApi.AssemblyInfoInputs.cache
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\obj\Debug\netcoreapp2.1\WholesaleApi.AssemblyInfo.cs
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\obj\Debug\netcoreapp2.1\WholesaleApi.RazorTargetAssemblyInfo.cache
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\obj\Debug\netcoreapp2.1\WholesaleApi.dll
+C:\Users\Alexsander Muniz\source\repos\ABETrabalhoFinal\src\Services\WholesaleApi\WholesaleApi\obj\Debug\netcoreapp2.1\WholesaleApi.pdb

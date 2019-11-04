@@ -1,4 +1,4 @@
-using WholesaleApi.Entities;
+using ShopkeeperApi.Entities;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -15,9 +15,15 @@ namespace ShopkeeperApi.Business
             budgetsMock.Add(budget);
             return contMockId++;
         }
-        public Budget getBudget(long budgetId)
+        public Budget getBudget(long budgetCode)
         {
-            return budgetsMock.Where(x => x.id == budgetId).FirstOrDefault();
+            return budgetsMock.Where(x => x.budgetCode == budgetCode).FirstOrDefault();
+        }
+        public Budget changeBudget(long budgetCode, RequestChangeStatus status)
+        {
+            Budget bd = budgetsMock.Where(x => x.budgetCode == budgetCode).FirstOrDefault();
+            bd.status = status.status;
+            return bd;
         }
         public List<Budget> getBudgets()
         {

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using WholesaleApi.Entities;
-using BookStoreApi.Business;
+﻿using WholesaleApi.Entities;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using WholesaleApi.Business;
 
 namespace WholesaleApi.Controllers
 {
@@ -13,10 +10,20 @@ namespace WholesaleApi.Controllers
     public class BudgetsController : ControllerBase
     {
         BudgetsBusiness _BudgetBusiness = new BudgetsBusiness();
-        [HttpGet("{id}")]
-        public ActionResult<Budget> Get(int id)
+        [HttpGet("/Budgets/{budgetCode}")]
+        public ActionResult<Budget> Get(long budgetCode)
         {
-            return _BudgetBusiness.getBudget(id);
+            return _BudgetBusiness.getBudget(budgetCode);
+        }
+        [HttpGet]
+        public ActionResult<List<Budget>> Get()
+        {
+            return _BudgetBusiness.getBudgets();
+        }
+        [HttpPatch("/Budgets/{budgetCode}")]
+        public ActionResult<Budget> Patch(long budgetCode, [FromBody] RequestChangeStatus status)
+        {
+            return _BudgetBusiness.changeBudget(budgetCode, status);
         }
     }
 }
